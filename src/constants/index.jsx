@@ -1,14 +1,12 @@
-import HeroImg from "../assets/hero-image.jpg";
-
 export const LINKS = [
 	{href: "#about", label: "About"},
 	{href: "#howitworks", label: "How It Works"},
 	{href: "#services", label: "Services"},
+	{href: "#pricing", label: "Pricing"},
 	{href: "#testimonials", label: "Testimonials"},
 ];
 
 export const HERO_CONTENT = {
-	image: HeroImg,
 	tagLine: "From old school to modern",
 	mainHeading: "Retro Metamorphosis",
 	subHeading:
