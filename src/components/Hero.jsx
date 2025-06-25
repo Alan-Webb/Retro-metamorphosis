@@ -10,11 +10,11 @@ const Hero = () => {
 				<h1 className="text-5xl lg:text-8xl my-4 font-semibold tracking-tighter bg-gradient-to-b from-yellow-50 via-yellow-300 to-yellow-700 bg-clip-text text-transparent">
 					{HERO_CONTENT.mainHeading}
 				</h1>
-				<p className="py-8 text-xl lg:text-2xl text-center max-w-xl">
+				<p className="py-8 mt-6 text-xl lg:text-2xl text-center text-white max-w-xl">
 					{HERO_CONTENT.subHeading}
 				</p>
 
-				<div className="py-8 space-x-4">
+				<div className="py-6 space-x-4">
 					<a
 						href="#"
 						className="inline-block bg-purple-600 hover:bg-purple-500 text-white border border-yellow-50 py-3 px-6 rounded-lg font-medium transition duration-200">
