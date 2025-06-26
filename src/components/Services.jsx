@@ -2,13 +2,13 @@ import {SERVICES} from "../constants";
 
 const Services = () => {
 	return (
-		<section id="#services">
+		<section id="services">
 			<div className="max-w-7xl mx-auto px-4">
-				<div className="text-center mb-12 border-t border-neutral-800">
-					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-500 via-yellow-400 to-yellow-300 bg-clip-text text-transparent">
+				<div className="text-center mb-12">
+					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-500 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
 						{SERVICES.sectionTitle}
 					</h2>
-					<p className="mt-4 text-neutral-400 max-w-xl mx-auto">
+					<p className="mt-4 text-neutral-300 max-w-xl mx-auto">
 						{SERVICES.sectionDescription}
 					</p>
 				</div>
@@ -17,10 +17,10 @@ const Services = () => {
 					{SERVICES.service.map((service, index) => (
 						<div
 							key={index}
-							className="bg-neutral-800 p-6 rounded-xl shadow-lg flex flex-col justify-between">
+							className="bg-neutral-500 p-6 rounded-xl shadow-lg flex flex-col justify-between">
 							<div>
 								<h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-								<p className="text-neutral-400 mb-4">{service.description}</p>
+								<p className="text-white mb-4">{service.description}</p>
 							</div>
 							<div className="flex justify-center">
 								<img

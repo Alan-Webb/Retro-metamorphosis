@@ -83,6 +83,103 @@ export const SERVICES = {
 	],
 };
 
+export const KEY_FEATURES_CONTENT = {
+	sectionTitle: "Why Choose Us",
+	sectionDescription:
+		"Our service combines expert care, advanced technology, and flexible delivery to preserve your memories with precision and heart.",
+	features: [
+		{
+			id: 1,
+			icon: <RiBarChart2Line className="w-8 h-8" />,
+			title: "Professional-Grade Transfers",
+			description:
+				"We use broadcast-quality equipment to ensure the best possible sound and image fidelity.",
+		},
+		{
+			id: 2,
+			icon: <RiSettings2Line className="w-8 h-8" />,
+			title: "Gentle Media Handling",
+			description:
+				"Your originals are treated with extreme care, using safe, non-destructive processes at every step.",
+		},
+		{
+			id: 3,
+			icon: <RiTeamLine className="w-8 h-8" />,
+			title: "Format Versatility",
+			description:
+				"From VHS and cassette to reel-to-reel and 8-track, we handle a wide range of audio and video formats.",
+		},
+		{
+			id: 4,
+			icon: <RiTwitchLine className="w-8 h-8" />,
+			title: "Digital Delivery Options",
+			description:
+				"Receive your files via cloud download, USB, or custom DVD—your choice, your convenience.",
+		},
+		{
+			id: 5,
+			icon: <RiYoutubeLine className="w-8 h-8" />,
+			title: "Quality Control Review",
+			description:
+				"Every file is checked for clarity, completeness, and synchronization before delivery.",
+		},
+		{
+			id: 6,
+			icon: <RiCalendarLine className="w-8 h-8" />,
+			title: "Secure Returns",
+			description:
+				"Your original media is carefully packaged and returned promptly after conversion.",
+		},
+	],
+};
+
+export const PLANS_CONTENT = {
+	sectionTitle: "Choose Your Plan",
+	sectionDescription:
+		"Streamerzz offers flexible pricing plans to fit every streamer’s needs, from beginner to pro.",
+	popularBadge: "Most Popular",
+	ctaText: "Get Started",
+	plans: [
+		{
+			name: "Basic Transfer",
+			price: "$49 / per item",
+			description:
+				"Ideal for small projects or single tapes with straightforward conversion needs.",
+			features: [
+				"Up to 2 hours of content",
+				"Includes VHS, cassette, or 8-track",
+				"Standard MP4 or MP3 digital file",
+				"Return shipping of original media included",
+			],
+		},
+		{
+			name: "Standard Archive",
+			price: "$129 / up to 5 items",
+			description:
+				"Perfect for families preserving a handful of cherished memories.",
+			features: [
+				"Mix and match formats",
+				"Up to 10 hours total content",
+				"USB drive or cloud delivery included",
+				"Basic noise reduction and image stabilization",
+			],
+			popular: true,
+		},
+		{
+			name: "Premium Legacy Pack",
+			price: "$299 / up to 15 items",
+			description:
+				"Best value for comprehensive preservation of family archives or collections.",
+			features: [
+				"Any format accepted",
+				"Up to 30 hours of content",
+				"Advanced enhancement",
+				"Includes USB drive and cloud backup",
+			],
+		},
+	],
+};
+
 export const TESTIMONIALS_CONTENT = {
 	sectionTitle: "What Our Customers Say",
 	sectionDescription:
