@@ -4,6 +4,7 @@ import Marquee from "./components/Marquee";
 import Services from "./components/Services";
 import Features from "./components/Features";
 import Testimonials from "./components/Testimonials";
+import Pricing from "./components/Pricing";
 
 const App = () => {
 	return (
@@ -13,6 +14,7 @@ const App = () => {
 			<Marquee />
 			<Services />
 			<Features />
+			<Pricing />
 			<Testimonials />
 		</main>
 	);
