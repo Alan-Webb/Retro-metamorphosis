@@ -5,7 +5,7 @@ const Features = () => {
 		<section id="features">
 			<div className="max-w-7xl mx-auto px-4 mt-20">
 				<div className="text-center mb-12">
-					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-300 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
+					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
 						{FEATURES_CONTENT.sectionTitle}
 					</h2>
 					<p className="mt-4">{FEATURES_CONTENT.sectionDescription}</p>

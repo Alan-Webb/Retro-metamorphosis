@@ -5,10 +5,10 @@ const Services = () => {
 		<section id="services">
 			<div className="max-w-7xl mx-auto px-4">
 				<div className="text-center mb-12">
-					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-500 via-yellow-400 to-yellow-500 bg-clip-text text-transparent">
+					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
 						{SERVICES.sectionTitle}
 					</h2>
-					<p className="mt-4 text-neutral-300 max-w-xl mx-auto">
+					<p className="mt-4 text-yellow-300 max-w-xl mx-auto text-2xl">
 						{SERVICES.sectionDescription}
 					</p>
 				</div>

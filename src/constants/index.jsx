@@ -139,7 +139,7 @@ export const FEATURES_CONTENT = {
 	],
 };
 
-export const PLANS_CONTENT = {
+export const PRICING_CONTENT = {
 	sectionTitle: "Choose Your Plan",
 	sectionDescription: "Ret-Met offers flexible pricing plans to your needs.",
 	popularBadge: "Most Popular",
