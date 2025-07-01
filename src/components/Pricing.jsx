@@ -11,7 +11,45 @@ const Pricing = () => {
 					<p className="mt-4">{PRICING_CONTENT.sectionDescription}</p>
 				</div>
 
-				<div className="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+					{PRICING_CONTENT.plans.map((plan, index) => (
+						<div
+							key={index}
+							className={`
+							p-8 rounded-xl bg-neutral-950 shadow-lg ${
+								plan.popular
+									? "border border-yellow-500/80"
+									: "border border-neutral-800"
+							}
+							`}>
+							{plan.popular && (
+								<div className="text-center mb-4">
+									<span className="bg-blue-600 text-white text-xs py-1 px-3 rounded-full uppercase">
+										{PRICING_CONTENT.popularBadge}
+									</span>
+								</div>
+							)}
+							<h3 className="text-lg lg:text-xl mb-4 tracking-tighter uppercase">
+								{plan.name}
+							</h3>
+							<p className="text-neutral-400 mb-6">{plan.description}</p>
+							<div className="text-2xl lg:text-3xl font-medium mb-6">
+								{plan.price}
+							</div>
+							<ul className="mb-8 space-y-2 text-neutral-400">
+								{plan.features.map((feature, i) => (
+									<li key={i} className="flex items-center">
+										<span className="inline-block w-2 h-2 bg-neutral-600 riunded-full mr-2"></span>
+										{feature}
+									</li>
+								))}
+							</ul>
+							<button className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-500 rounded-lg cursor-pointer">
+								{PRICING_CONTENT.ctaText}
+							</button>
+						</div>
+					))}
+				</div>
 			</div>
 		</section>
 	);
