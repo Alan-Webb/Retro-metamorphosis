@@ -22,7 +22,6 @@ export const LINKS = [
 	{href: "#features", label: "Features"},
 	{href: "#pricing", label: "Pricing"},
 	{href: "#testimonials", label: "Testimonials"},
-	{href: "#contact", label: "Contact"},
 ];
 
 export const HERO_CONTENT = {
@@ -199,7 +198,7 @@ export const TESTIMONIALS_CONTENT = {
 		},
 		{
 			name: "Marcus T",
-			location: " Richmond, VA",
+			location: "Richmond, VA",
 			review:
 				"You treated my dad’s old audio tapes like treasures. Hearing his voice again meant the world to us.",
 			image: user2,
