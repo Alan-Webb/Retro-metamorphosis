@@ -233,3 +233,61 @@ export const TESTIMONIALS_CONTENT = {
 		},
 	],
 };
+
+export const FOOTER_CONTENT = {
+	sections: [
+		{
+			title: "SERVICES & FORMATS",
+			links: [
+				{text: "Cassette to Digital", url: "#"},
+				{text: "VHS & Camcorder Conversion", url: "#"},
+				{text: "Vinyl & 8-Track Transfers", url: "#"},
+				{text: "Reel-to-Reel Audio Preservation", url: "#"},
+				{text: "Film Reel to Digital (8mm/16mm)", url: "#"},
+				{text: "Photo & Slide Scanning", url: "#"},
+				{text: "Custom Archival Projects", url: "#"},
+				{text: "Delivery Options & Formats", url: "#"},
+			],
+		},
+		{
+			title: "SUPPORT & RESOURCES",
+			links: [
+				{text: "Pricing & Packages", url: "#"},
+				{text: "Bulk & Business Inquiries", url: "#"},
+				{text: "Frequently Asked Questions", url: "#"},
+				{text: "Our Process Explained", url: "#"},
+				{text: "Newsletter Sign-Up", url: "#"},
+				{text: "What's New", url: "#"},
+				{text: "Gift Cards Available", url: "#"},
+				{text: "Workshops & Community Events", url: "#"},
+			],
+		},
+		{
+			title: "CONNECT WITH US",
+			links: [
+				{text: "Facebook", url: "#"},
+				{text: "Instagram", url: "#"},
+				{text: "YouTube", url: "#"},
+				{text: "LinkedIn", url: "#"},
+				{text: "Twitter/X", url: "#"},
+				{text: "Email Support", url: "#"},
+				{text: "Leave a Testimonial", url: "#"},
+			],
+		},
+		{
+			title: "LEARN & EXPLORE",
+			links: [
+				{text: "Why Digitize Your Media?", url: "#"},
+				{text: "How We Handle Your Tapes & Films", url: "#"},
+				{text: "Understanding Media Degradation", url: "#"},
+				{text: "Preserving Audio with Integrity", url: "#"},
+				{text: "Sharing Digitized Memories", url: "#"},
+				{text: "How to Store Original Media Safely", url: "#"},
+				{text: "Client Stories & Case Studies", url: "#"},
+			],
+		},
+	],
+	platformsText:
+		"Formats We Support | VHS | Cassette | Vinyl | 8-Track | Film Reels | Slides",
+	copyrightText: "© 2025 MemoryMenders, Inc. All rights reserved.",
+};
