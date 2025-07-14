@@ -17,7 +17,7 @@ const Services = () => {
 					{SERVICES.service.map((service, index) => (
 						<div
 							key={index}
-							className="bg-neutral-500 p-6 rounded-xl shadow-lg flex flex-col justify-between">
+							className="bg-neutral-900/50 border border-yellow-400 p-6 rounded-xl shadow-lg flex flex-col justify-between">
 							<div>
 								<h3 className="text-xl font-semibold mb-4">{service.title}</h3>
 								<p className="text-white mb-4">{service.description}</p>
