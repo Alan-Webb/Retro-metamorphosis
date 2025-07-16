@@ -17,12 +17,12 @@ const Hero = () => {
 				<div className="py-10 space-x-4">
 					<a
 						href="#"
-						className="inline-block bg-purple-800 hover:bg-purple-500 text-white border border-yellow-50 py-3 px-6 rounded-lg font-medium transition duration-200">
+						className="inline-block bg-purple-800 hover:bg-purple-500 text-white border border-yellow-300 py-3 px-6 rounded-lg font-medium transition duration-200">
 						{HERO_CONTENT.callToAction.primary}
 					</a>
 					<a
 						href="#"
-						className="inline-block bg-purple-800 hover:bg-purple-500 text-white border border-yellow-50 py-3 px-6 rounded-lg font-medium transition duration-200">
+						className="inline-block bg-purple-800 hover:bg-purple-500 text-white border border-yellow-300 py-3 px-6 rounded-lg font-medium transition duration-200">
 						{HERO_CONTENT.callToAction.secondary}
 					</a>
 				</div>
