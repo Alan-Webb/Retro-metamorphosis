@@ -3,12 +3,12 @@ import {PRICING_CONTENT} from "../constants";
 const Pricing = () => {
 	return (
 		<section id="pricing">
-			<div className="max-w-7xl mx-auto px-4 mt-20">
+			<div className="max-w-7xl mx-auto px-6 mt-20">
 				<div className="text-center mb-12">
 					<h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-yellow-100 via-yellow-300 to-yellow-500 bg-clip-text text-transparent">
 						{PRICING_CONTENT.sectionTitle}
 					</h2>
-					<p className="mt-4">{PRICING_CONTENT.sectionDescription}</p>
+					<p className="mt-4 text-xl">{PRICING_CONTENT.sectionDescription}</p>
 				</div>
 
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -16,7 +16,7 @@ const Pricing = () => {
 						<div
 							key={index}
 							className={`
-							p-8 rounded-xl bg-neutral-950 shadow-lg ${
+							p-8 rounded-xl bg-neutral-900/50 shadow-lg ${
 								plan.popular
 									? "border border-yellow-500/80"
 									: "border border-neutral-800"
@@ -24,7 +24,7 @@ const Pricing = () => {
 							`}>
 							{plan.popular && (
 								<div className="text-center mb-4">
-									<span className="bg-blue-600 text-white text-xs py-1 px-3 rounded-full uppercase">
+									<span className="bg-purple-600 text-white text-xs py-1 px-3 rounded-full uppercase">
 										{PRICING_CONTENT.popularBadge}
 									</span>
 								</div>
