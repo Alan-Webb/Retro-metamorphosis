@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
 	return (
-		<main className="text-neutral-300 bg-purple-700 antialiased">
+		<main className="text-neutral-300 bg-purple-800 antialiased">
 			<Navbar />
 			<Hero />
 			<Marquee />
